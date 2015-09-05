@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartViewController">
+            <connections>
+                <outlet property="view" destination="8" id="12"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="8">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="startup-screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="109">
+                    <rect key="frame" x="58" y="115" width="684" height="878"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="111"/>
+                        <constraint firstAttribute="height" constant="400" id="117"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="PlayMMD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99">
+                    <rect key="frame" x="299" y="48" width="171" height="59"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="59" id="102"/>
+                        <constraint firstAttribute="width" constant="171" id="103"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="32"/>
+                    <color key="textColor" red="0.4435604937" green="0.90831718669999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jk-bk-FEQ">
+                    <rect key="frame" x="69" y="-19" width="598" height="898"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                    <state key="normal" title="Touch To Start">
+                        <color key="titleColor" red="1" green="0.18032693450000001" blue="0.33719530380000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="start:" destination="-1" eventType="touchUpInside" id="fRG-ga-o5s"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.21960784310000001" green="0.3294117647" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="99" firstAttribute="top" secondItem="8" secondAttribute="top" constant="85" id="107"/>
+                <constraint firstItem="99" firstAttribute="centerX" secondItem="8" secondAttribute="centerX" id="108"/>
+                <constraint firstItem="109" firstAttribute="leading" secondItem="8" secondAttribute="leading" constant="58" id="46s-Aw-yUl"/>
+                <constraint firstAttribute="trailing" secondItem="109" secondAttribute="trailing" constant="26" id="OqX-Ax-3Cy"/>
+                <constraint firstItem="109" firstAttribute="top" secondItem="99" secondAttribute="bottom" constant="8" id="RvT-8P-l9x"/>
+                <constraint firstAttribute="bottom" secondItem="109" secondAttribute="bottom" constant="31" id="T8o-Ur-Cwv"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="startup-screen.png" width="475" height="750"/>
+    </resources>
+</document>
