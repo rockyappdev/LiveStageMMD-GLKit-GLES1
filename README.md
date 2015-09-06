@@ -72,7 +72,7 @@ iOS開発の詳細は以下のサイトを見て下さい
 </pre>
 
 <p>
-MMDモデルデータのロード及び描画はMMSAgentのコードを使わせていただきました。<br>
+MMDモデルデータのロード及び描画はMMDAgentのコードを使わせていただきました。<br>
 <b>What is MMDAgent?</b><br>
 MMDAgent is a toolkit for building voice interaction systems.
 This toolkit is released for contributing to the popularization of speech technology.
