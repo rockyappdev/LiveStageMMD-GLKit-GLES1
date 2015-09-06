@@ -1,17 +1,23 @@
 # LiveStageMMD-GLKit-GLES1
 <ul>
-<li>LiveStageMMD-GLKit-GLES1<br>
-    GLKit APIはiOS 5.0及び以降のバージョンでサポート<br>
-    OpenGLES 1.xは固定シェーダーをサポート
-</li>
-<li>LiveStageMMD-GLKit-GLES2<br>
-    GLKit APIはiOS 5.0及び以降のバージョンでサポート<br>
-    OpenGLES 2.xはGLSLシェーダーをサポート
-</li>
-<li>LiveStageMMD-GLView-GLES1<br>
-    GLView APIはiOS 4.x及び以前のバージョンでサポート<br>
-    OpenGLES 1.xは固定シェーダーをサポート
-</li>
+<li>LiveStageMMD-GLKit-GLES1</li>
+    <ul>
+    <li>GLKit APIはiOS 5.0及び以降のバージョンでサポート</li>
+    <li>OpenGLES 1.xは固定シェーダーをサポート</li>
+    <li>ハコスコサポート</li>
+    </ul>
+<li>LiveStageMMD-GLKit-GLES2</li>
+    <ul>
+    <li>GLKit APIはiOS 5.0及び以降のバージョンでサポート</li>
+    <li>OpenGLES 2.xはGLSLシェーダーをサポート</li>
+    <li>ハコスコサポート</li>
+    <li>Modelのテクスチャーが上手く表示され無い</li>
+    </ul>
+<li>LiveStageMMD-GLView-GLES1</li>
+    <ul>
+    <li>GLView APIはiOS 4.x及び以前のバージョンでサポート</li>
+    <li>OpenGLES 1.xは固定シェーダーをサポート</li>
+    </ul>
 </ul>
 
 <p>
