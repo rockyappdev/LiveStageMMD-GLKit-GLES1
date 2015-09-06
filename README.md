@@ -60,6 +60,11 @@ MikuMikuDanceのモデル、ステージ、モーションのzipファイルを�
 </pre>
 
 <p>
+実機へアプリをインストールした場合、iTuneを使ってモデルやモーションの.zipファイルを
+アプリ内へコピーして下さい。
+
+
+<p>
 iOS開発の詳細は以下のサイトを見て下さい
 <pre>
    https://developer.apple.com/programs
