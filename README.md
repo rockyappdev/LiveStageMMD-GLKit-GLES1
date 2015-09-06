@@ -71,6 +71,16 @@ iOS開発の詳細は以下のサイトを見て下さい
    https://developer.apple.com/ios
 </pre>
 
+<p>
+MMDモデルデータのロード及び描画はMMSAgentのコードを使わせていただきました。<br>
+<b>What is MMDAgent?</b><br>
+MMDAgent is a toolkit for building voice interaction systems.
+This toolkit is released for contributing to the popularization of speech technology.
+We expect all users to use the toolkit in the manner not offensive to public order and morals. 
+<pre>
+   http://www.mmdagent.jp/
+</pre>
+
 
 Twitter: @papipo111
 
