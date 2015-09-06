@@ -71,3 +71,6 @@ iOS開発の詳細は以下のサイトを見て下さい
    https://developer.apple.com/ios
 </pre>
 
+
+Twitter: @papipo111
+
