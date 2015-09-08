@@ -42,7 +42,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Poke MMD pmd", @"Poke MMD pmd");
+        self.title = NSLocalizedString(@"LVSTG MMD pmd", @"LVSTG MMD pmd");
     }
 
     return self;
